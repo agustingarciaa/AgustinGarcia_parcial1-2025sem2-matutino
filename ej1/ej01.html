@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parcial 1, 2025 sem 2, Desarrollo Web y Mobile</title>
-    <link rel="stylesheet" href="ej01.css">
-</head>
+    <link rel="stylesheet" href="ej01.css" />
+  </head>
 
-<body>
-    <h1>Ejercicio 01</h1>
-    <p>
-        Replicar la composición de ej_01_referencia.jpg lo más fiel posible,
-        respetando tipografías, tamaños, colores, espaciados y
-        alineaciones de cada sección. En /assets se encuentran las imágenes a usar
-        y en textos.md todo el contenido del menú. La entrega debe resolverse solo con
-        HTML + CSS (sin frameworks/JS).
-    </p>
-    <p>
-        La fuente a utilizar (Rufina Bold) ya ha sido descargada y agregada en
-        /assets/fonts, y se encuentra referenciada en el archivo ej01.css.
-        Solo deben aplicarla donde corresponda.
-    </p>
-</body>
+  <body>
+    <div id="header">
+      <header>
+        <h1>Los Pollos</h1>
+        <h1>Hermanos</h1>
+        <p>El sabor que hacer que hasta Heisenberg se saque el sombrero</p>
+      </header>
+      <img
+        class="image"
+        src="../ej1/assets/los_pollos_hermanos.png"
+        alt="Los pollos hermanos logo"
+      />
+    </div>
+    <div id="entradas">
+      <h2 class="header2">Entradas</h2>
+      <img src="../ej1/assets/better_call_saul.png" />
+      <div class="columnas">
+        <p class="producto">Alitas de Crystal Meth</p>
+        <p class="descrip">
+          Crujientes y adicitvas, servidas con una salsa "azul"
+        </p>
+        <p class="precio">$18</p>
+        <p class="producto">Nachos Salamanca</p>
+        <p class="descrip">
+          Se comen rapido, pero cuidado... siempre hay consecuencias
+        </p>
+        <p class="precio">$12</p>
+        <p class="producto">Guacamole Better Call Saul</p>
+        <p class="descrip">
+          Ideal para empezar la velada con una defensa impecable
+        </p>
+        <p class="precio">$18</p>
+      </div>
+    </div>
+    <div id="main">
+      <h2 class="header2">Platos Principales</h2>
+      <p class="subtitle">La verdadera 'cocina' de Los Pollos Hermanos</p>
+      <img src="../ej1/assets/walter_white.png" />
+      <div class="columnas">
+        <p class="producto">Pollo a la Gus Fring</p>
+        <p class="descrip">Perfecto, impecable, sin una sola falla</p>
+        <p class="precio">$02</p>
 
+        <p class="producto">Ribs al estilo Heisenberg</p>
+        <p class="descrip">
+          Tan intensas que parecen cocinadas en un laboratorio de quimica
+        </p>
+        <p class="precio">$22</p>
+
+        <p class="producto">Steak "Say My Name"</p>
+        <p class="descrip">Jugoso, potente y servido con respeto absoluto</p>
+        <p class="precio">$20</p>
+      </div>
+    </div>
+    <div id="postres">
+      <h2 class="header2">Postres & Bebidas</h2>
+      <img src="../ej1/assets/gustavo_fring.png" />
+      <div class="columnas">
+        <p class="producto">Flan del Desierto</p>
+        <p class="descrip">
+          Suave, dorado y con un caramelo tan dulce que parece cocinado bajo el
+          sol de Albuquerque.
+        </p>
+        <p class="precio">$40</p>
+        <p class="producto">Cafe Lalo Salamanca</p>
+        <p class="descrip">Fuerte, con un "golpe" inesperado al final.</p>
+        <p class="precio">$30</p>
+        <p class="producto">Whisky Pollos</p>
+        <p class="descrip">
+          Tan suave que hasta Mike se tomaria uno despues del turno
+        </p>
+        <p class="precio">$90</p>
+      </div>
+    </div>
+  </body>
 </html>

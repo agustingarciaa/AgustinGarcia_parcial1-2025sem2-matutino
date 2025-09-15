@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ejercicio 4</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial 1, 2025 sem 2, Desarrollo Web y Mobile</title>
+    <title>Ejercicio 4 - Mini-Contacts API</title>
   </head>
   <body>
-    <input name="name" placeholder="Name" required />
-    <input name="email" placeholder="Email" required />
-    <select name="role">
-      <option>Admin</option>
-      <option>Editor</option>
-      <option>Viewer</option>
-    </select>
-    <button id="add">Add</button>
+    <h1>Mini-Contacts API</h1>
 
+    <div class="form-container">
+      <h3>Add New User</h3>
+      <input name="name" id="name" placeholder="Name" required />
+      <input name="email" id="email" placeholder="Email" required />
+      <select name="role" id="role">
+        <option>Admin</option>
+        <option>Editor</option>
+        <option>Viewer</option>
+      </select>
+      <button id="add">Add</button>
+    </div>
+
+    <h3>Users List</h3>
     <ul id="users"></ul>
+
+    <script src="ej4.js" defer></script>
   </body>
 </html>
